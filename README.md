@@ -11,5 +11,5 @@ the code is a bit messy since we have edited and reissued many times for quick c
 nothing, only push the git and up it
 
 ```
-Give examples
+git clone https://github.com/maagmirror/NibiruDesigns.git
 ```

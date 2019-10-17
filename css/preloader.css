@@ -1,0 +1,35 @@
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 99999;
+    height: 100%;
+}
+#status {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    width: 50%;
+    height: 50%;
+    margin: -32px 0 0 -32px;
+    display:block;
+    margin:auto;
+}
+@media only screen and (max-width: 767px) { 
+#status {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 50%;
+    height: 50%;
+    margin: -32px 0 0 -32px;
+    display:block;
+    margin:auto;
+}
+}
+body{
+    overflow-x: hidden;
+}    
